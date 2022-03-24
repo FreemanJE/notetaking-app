@@ -9,7 +9,7 @@ export default function Home() {
     return (
         <>
             <main>
-                <div className={styles.main}>
+                {/* <div className={styles.main}>
                     <header className={styles.header}>
                         <h1 >React Note Taking Application</h1>
                     </header>
@@ -19,7 +19,7 @@ export default function Home() {
                         <NavLink className={styles.nav} to="about">About</NavLink> {" "}
                         <NavLink className={styles.nav} to="list">NoteList</NavLink> {!appInfo} {" "}
                     </nav>
-                </div>
+                </div> */}
                 if (NoteList)
                 <Outlet />
                 <div>

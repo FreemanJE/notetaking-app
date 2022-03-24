@@ -1,4 +1,4 @@
-import { Routes, Route, BrowserRouter } from 'react-router-dom';
+import { Routes, Route, HashRouter } from 'react-router-dom';
 import './App.css';
 import Home from './components/Home/Home';
 import NoteList from './components/NoteList/NoteList';
@@ -16,20 +16,20 @@ function App() {
   return (
     <div className="App">
 
-      <BrowserRouter>
+      <HashRouter basename='/'>
       <Navigation />
         <Routes>
-          <Route path='/' element={<About />} />
+          <Route path='/' element={< About />} />
             {/* <Route path='/about' element={<About />} /> */}
             <Route path='/list' element={<NoteList list={list} setList={setList} />}>
               {/* <Route index element={<main style={{ padding: "2rem" }}><h2>Title and Body</h2></main>} /> */}
               <Route path='/list/:id' element={<NoteView list={list} setList={setList} />} />
             </Route>
-            <Route path="*" element={<Home />} />
+            <Route path="*" element={< About />} />
           {/* </Route> */}
         </Routes>
 
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 }
