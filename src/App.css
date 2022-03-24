@@ -1,0 +1,14 @@
+#body {
+    height: 100vh;
+    background-image: linear-gradient(to bottom, white, skyblue);
+    background-repeat: no-repeat;
+
+}
+main {
+    /* background-color: aqua; */
+    height: 100%;
+    /* margin: 30px 30px; */
+}
+.App {
+    text-align: center;
+}

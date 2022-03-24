@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@900&family=Lobster+Two&family=Vujahday+Script&family=Yanone+Kaffeesatz:wght@300;400;500&display=swap');
+.noteList{
+    display: flex;
+    justify-content: center;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 25px;
+    
+}
+
+.nav{
+    margin-top: 30px;
+    border-radius: 20px;
+}
+.input{
+    position : sticky;
+    top: 210px;
+    font-size: 20px;
+    padding: 10px;
+    margin: 20px 0;
+    border-radius: 5px;
+    border-bottom: 3px solid rgb(130, 156, 167);
+    box-shadow: 8.0px 16.0px 16.0px hsl(0deg 0% 0% / 0.25);
+}
+
+.title {
+    font-size: 15px;
+}
+.link {
+    display: block;
+    margin: 10px;
+    font-size: 30px;
+    text-decoration: none;
+    padding: "5px 15px";
+    border-bottom: 0.1px solid black;
+    box-shadow: 5px 15px 10px silver;
+    color: black;
+}
+.link:hover {
+    background-color: #e9a4a4;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+}

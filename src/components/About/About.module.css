@@ -1,0 +1,12 @@
+.main3 { 
+    width: 40%;
+    text-align: center;
+    margin: 100px 30%;
+    padding: 30px;
+    box-shadow: 8.0px 16.0px 16.0px hsl(0deg 0% 0% / 0.25);
+   
+}
+li {
+    font-size: 20px;
+    list-style: none;
+}
