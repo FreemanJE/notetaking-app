@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/notetaking-app/static/css/main.e019da0f.css",
+    "main.js": "/notetaking-app/static/js/main.755a3fa7.js",
+    "index.html": "/notetaking-app/index.html",
+    "main.e019da0f.css.map": "/notetaking-app/static/css/main.e019da0f.css.map",
+    "main.755a3fa7.js.map": "/notetaking-app/static/js/main.755a3fa7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e019da0f.css",
+    "static/js/main.755a3fa7.js"
+  ]
+}
